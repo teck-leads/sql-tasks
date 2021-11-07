@@ -1,0 +1,9 @@
+create user scott identified by tiger;
+
+CREATE USER c##scott IDENTIFIED BY tiger;
+
+CREATE USER c#scott IDENTIFIED BY tiger;
+
+DROP USER c##scott CASCADE; 
+
+GRANT CONNECT, RESOURCE, DBA TO c##scott;
